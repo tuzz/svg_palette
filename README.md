@@ -13,6 +13,8 @@ SVGPalette.parse(File.read("flag_of_togo.svg"))
 
 The array contains instances of [Color](http://rubydoc.info/gems/color/1.4.1/frames).
 
+Note: The color black may not be detected unless it is explictly set as a property value.
+
 ## Properties
 
 The following properties are considered:
